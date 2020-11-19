@@ -1,0 +1,97 @@
+.hamBtn{
+	float: right;
+	width: auto;
+	height: 70px;
+	visibility: hidden;
+}
+
+.small-menu{
+	float: center;
+	display: none;
+	visibility: hidden;
+}
+
+#work {
+	padding: 6em 4em 3em;
+	background-color: #fff;
+}
+
+#work h2 {
+	color: black;
+	margin-bottom: .7em;
+}
+
+
+#work .tag-line {
+	color: #767779;
+	font-size: 1.4em;
+	margin-bottom: 4em;
+}
+
+#work .work-row {
+	margin-bottom: 5.5em;
+}
+
+
+
+.my-arrow-div{
+	font-size: 1.2em;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+
+@media only screen and (max-width: 480px){
+	.listskills{
+		text-align: center;
+	}
+	.row{
+		display: inline;
+	}
+
+	#work {
+		padding-top: 0;
+		background-color: #fff;
+	}
+	.navlist{
+		font-size: 0.7em;
+		margin-right: 0;
+		visibility: hidden;
+	}
+
+	.hamBtn{
+		float: right;
+		width: auto;
+		height: 60px;
+		visibility: visible;
+		margin-top: 0.5em;
+	}
+	.small-menu{
+		visibility: visible;
+		list-style-type: none;
+		float: center;
+		text-decoration: none;
+		list-style: none;
+		padding-right: 0;
+		font-size:0.8em;
+		padding-top: 30px;	
+		margin-right: 0;
+		display: inline;
+		width: 100%;
+	}
+	.smallMenuClosed{
+		visibility: hidden;
+		list-style-type: none;
+		float: center;
+		text-decoration: none;
+		list-style: none;
+		padding-right: 0;
+		font-size:0.8em;
+		padding-top: 30px;	
+		margin-right: 0;
+	}
+
+}
+
+
