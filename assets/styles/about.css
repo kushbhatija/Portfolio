@@ -1,65 +1,55 @@
-body, html {
-  background-color: white;
-}
-
-.top-bar{
-  background-color: #E3E3E3;
-  height: 11em;
-}
-
 #about{
-  background-color: #E3E3E3;
+  margin-top: 10em;
+  width: 100%;
 }
-  
+
+
+.top-bar ul{
+  background-color: none;
+}
+.my-arrow-div {
+  font-size: 1.2em;
+  margin-top: 2em;
+  padding-top: 0;
+  background-color: none;
+}
+
 
 .belowMenu{
   width: 100%;
-  height: 25em;
+  height: 15em;
   background-color: white;
 }
+
+
 
 .face {
   /* background-color: tomato; */
   position: relative;
-  width: 40em;
+  width: 50em;
   height: auto;
   margin: auto;
-  background-image:url('../images/coder.png');
-  background-size: cover;
 }
-.coder {
-  position: relative;
-  /* background-color: gold; */
-  width: 40em;
-  max-width: 100%; /* duh */
-  height: 100%;
-  margin: auto;
-  /* Using box-shadow to remind myself that the gold element is inside of (above) the parent */
-  /* box-shadow: 0 0 2em black; */
-  overflow: hidden;
-}
-.logo {
-  position: relative;
-  width: 40em;
-  height: auto;
-  margin: auto;
-  max-width: none;
-  display: block;
+
+
+
+#teaching {
+  padding: 1.5em 4em 3em;
 }
 
 .designerHeading{
   left: 1em;
-  width: 30%;
-  height: 30%;
+  width: 50%;
+  height: 50%;
   color: black;
 
 }
 
 .coderHeading{
-  width: 30%;
-  height: 30%;
+  width: 50%;
+  height: 50%;
   right: 1em;
-  text-align: right;
+  text-align: left;
   color: black;
 }
 
@@ -70,7 +60,7 @@ body, html {
   margin: auto;
   top: 0;
   bottom: 0;
-  margin-right: -5em;
+  margin-right: -15em;
 
 }
 .face .designerHeading{
@@ -83,65 +73,12 @@ body, html {
   margin-left: -5em;
 }
 
-.listskills{
-  text-align: left;
+.text-center{
+  padding-top: 1.5em;
 }
-.my-arrow-div{
-  background-color: white;
-  width: 100%;
-}
-
-#teaching{
-  background-color: #E3E3E3;
-  width: 100%;
-  height: 88em;
-}
-
-#footer{
-  background-color: #E3E3E3;
-  width: 100%;
-  height: 15em;
-}
-
-
-
-
-
-
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: white;
-  color: black; 
-  text-transform: uppercase;
-  border-radius: 50px;
-  border: 2px solid black;
-  cursor: pointer;
+.Otherskills{
   text-align: center;
-  float: center;
 }
-
-input[type=submit]:hover {
-  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
-  background-color: black;
-  color: white;
-}
-
-
-
-
-
-
 
 
 
@@ -149,43 +86,9 @@ input[type=submit]:hover {
 @media only screen and (max-width: 480px){
 
 
-  #teaching{
-    background-color: #E3E3E3;
-    width: 100%;
-    height: 110em;
-  }
-
-  .listsoftware{
-		font-size: 0.7em;
-		text-align: center;
-		padding-right:0;
-		margin-right: 1.5em;
-	}
-	.listskills-right{
+  .my-arrow-div{
+    font-size: 0.8em;
     text-align: center;
-    font-size: 1.5em;
-
-  }
-  .listskills{
-    text-align: center;
-    font-size: 1.2em;
-
-  }
-  h3{
-    font-size: 1.5em;
-  }
-  h2{
-    padding-bottom: 1.5em;
-
-  }
-	.listsoftware-right{
-		font-size: 0.7em;
-		text-align: center;
-		padding-right:0;
-		margin-right: 15px;
-  }
-  .logo{
-    visibility: hidden;
   }
 
   .designerHeading{
@@ -205,38 +108,46 @@ input[type=submit]:hover {
 
     color: black;
   }
+  .face{
+    top: 0;
+  }
+  .my-arrow-div{
+    margin: 0;
+    padding: 15px;
+    background-color: none;
+    margin-top: 7em;
+  }
 
   .face .designerHeading{
-    position: absolute;
+    position: relative;
     display: block;
     z-index: 10;
     margin: auto;
-    top: 35em;
     bottom: 0;
-    margin-left: 0;
+    margin-left: 2em;
+    margin-top: -15em;
   }
   
   .face .coderHeading{
-    position: absolute;
+    position: relative;
     display: block;
     z-index: 10;
     margin: auto;
-    top: 35em;
     bottom: 0;
     margin-right:2em;
-  
-  }
+    margin-top: -15em;
 
+  }
+  
   .face {
     /* background-color: tomato; */
     width: auto;
     height: 300px;
-    background-image:url('../images/coderanddesigner.png');
+  }
+  .belowMenu{
+    width: 100%;
+    height: 23em;
+    background-color: white;
   }
 
-  .my-arrow-div{
-    background-color: white;
-    width: 100%;
-    padding-top: 7em;
-  }
-  }
+}
