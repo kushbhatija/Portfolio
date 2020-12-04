@@ -151,3 +151,126 @@
   }
 
 }
+
+
+@media only screen and (min-width: 582px){
+  .face .designerHeading{
+    margin-left: 6em;
+
+  }
+  .face .coderHeading{
+    margin-right: 20em;
+
+  }
+  .face .coderHeading{
+    width: 15%;
+    height: 20%;
+    font-size: 0.8em;
+    color: black;
+  }
+
+  .designerHeading{
+    width: 15%;
+    height: 25%;
+    font-size: 0.8em;
+    color: black;  
+  }
+
+  .listskills-right{
+    text-align: center;
+    padding-right: 0;
+  }
+}
+
+
+
+  @media only screen and (min-width: 768px){
+    .face .designerHeading{
+      margin-left: 5em;
+  
+    }
+    .face .coderHeading{
+      margin-right: 7em;
+  
+    }
+    .face .coderHeading{
+      width: 15%;
+      height: 25%;
+      font-size: 0.8em;
+      color: black;
+    }
+  
+    .designerHeading{
+      width: 15%;
+      height: 25%;
+      font-size: 0.8em;
+      color: black;  
+    }
+  
+    .listskills-right{
+      text-align: center;
+      padding-right: 0;
+    }
+  }
+
+  @media only screen and (min-width: 1500px){
+    .face .designerHeading{
+      margin-left: -6em;
+  
+    }
+  
+    .face .coderHeading{
+      width: 25%;
+      height: 35%;
+      font-size: 0.8em;
+      color: black;
+      margin-right: -10em;
+
+    }
+  
+    .designerHeading{
+      width: 25%;
+      height: 35%;
+      font-size: 0.8em;
+      color: black;  
+
+    }
+  
+    .listskills-right{
+      text-align: center;
+      padding-right: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 1500px){
+
+   .face .designerHeading{
+      margin-left: -6em;
+  
+    }
+  
+    .face .coderHeading{
+      width: 30%;
+      height: 35%;
+      font-size: 0.8em;
+      color: black;
+      margin-right: -10em;
+
+    }
+  
+    .designerHeading{
+      width: 30%;
+      height: 35%;
+      font-size: 0.8em;
+      color: black;  
+
+    }
+  
+    .listskills-right{
+      text-align: center;
+      padding-right: 0;
+    }
+  }
+  
+
+
