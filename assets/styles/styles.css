@@ -503,7 +503,8 @@ a{
 /**********************************************/
 
 @media only screen and (max-width: 480px){
-  
+
+
 	.navlist{
 		font-size: 0.7em;
 		margin-right: 0;
@@ -589,6 +590,16 @@ a{
 
 }
 
+
+@media only screen and (min-width: 400px){
+	.hamBtn{
+		float: right;
+		margin-left: 4em;
+	}
+}
+
+
+
 @media only screen and (min-width: 425px){
 	.listskills{
 		text-align: center;
@@ -602,8 +613,10 @@ a{
 		text-align: center;
 		font-size: 0.8em;
 		margin-right: 2em;
-
-
+	}
+	.hamBtn{
+		float: right;
+		margin-left: 4em;
 	}
 }
 @media only screen and (min-width: 490px){
