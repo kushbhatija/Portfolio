@@ -212,6 +212,12 @@
       padding-right: 0;
     }
   }
+@media only screen and (min-width: 1000px){
+        .listskills-right{
+      text-align: center;
+      padding-right: 1.5em;
+    }
+}
 
   @media only screen and (min-width: 1500px){
     .face .designerHeading{
