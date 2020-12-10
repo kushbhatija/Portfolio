@@ -219,6 +219,31 @@
   
     }
     .face .coderHeading{
+      width: 20%;
+      height: 25%;
+      font-size: 0.8em;
+      color: black;
+      margin-right: -10em;
+
+    }
+   
+  
+    .designerHeading{
+    width: 20%;
+      height: 25%;
+      font-size: 0.8em;
+      color: black;  
+
+    }
+        .listskills-right{
+      text-align: right;
+      padding-right: 1.5em;
+    }
+  
+
+  }
+@media only screen and (min-width: 1700px){
+    .face .coderHeading{
       width: 30%;
       height: 35%;
       font-size: 0.8em;
@@ -235,15 +260,7 @@
       color: black;  
 
     }
-        .listskills-right{
-      text-align: center;
-      padding-right: 1.5em;
-    }
-  
-
-  }
-  
- 
+}
   
 
 
