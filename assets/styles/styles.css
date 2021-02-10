@@ -360,6 +360,8 @@ a{
 .details h3 {
 	color: #738182;
 	text-transform: uppercase;
+		margin-bottom: 0;
+
 }
 
 .details .platform{
@@ -381,7 +383,7 @@ a{
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
 	font-size: 1.2em;
-	margin-bottom: 1.8em;
+	margin-bottom: 0;
 }
 
 .details a, .details a:link, .details a:active{
