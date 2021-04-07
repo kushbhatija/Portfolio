@@ -508,6 +508,11 @@ a{
 /**********************************************/
 
 @media only screen and (max-width: 480px){
+	
+	.details {
+		    font-size: 0.6em;
+		    margin: 2em;
+		}
 
 
 	.navlist{
