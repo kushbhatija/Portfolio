@@ -75,7 +75,7 @@ const Portfolio = function() {
 	function Animation() {
 		Typed.new("#writing-text1", {
 			strings: [
-				"Interaction Designer"
+				"UX/UI & Graphic Designer"
 			],
 			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 			stringsElement: null,
