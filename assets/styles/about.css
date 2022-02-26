@@ -21,6 +21,55 @@
   background-color: white;
 }
 
+.face {
+  /* background-color: tomato; */
+  position: relative;
+  width: 50em;
+  height: auto;
+  margin: auto;
+}
+
+
+
+#teaching {
+  padding: 1.5em 4em 3em;
+}
+
+.designerHeading{
+  left: 1em;
+  width: 50%;
+  height: 50%;
+  color: black;
+
+}
+
+.coderHeading{
+  width: 50%;
+  height: 50%;
+  right: 1em;
+  text-align: left;
+  color: black;
+}
+
+.face .coderHeading{
+  position: absolute;
+  display: block;
+  z-index: 10;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  margin-right: -15em;
+
+}
+.face .designerHeading{
+  position: absolute;
+  display: block;
+  z-index: 10;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  margin-left: -5em;
+}
 
 
 
